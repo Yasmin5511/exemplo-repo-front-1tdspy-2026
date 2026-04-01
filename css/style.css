@@ -1,0 +1,34 @@
+
+/* Comentario em css */
+/* as tags do head e ela, não recebem nenhuma alteração no css*/
+/* As tags do HTML são os seletores usados no CSS */
+
+/*
+p,h2{ Pra aplicar a mesma regra para mais de um seletor se coloca a , e o próximo seletor
+    color: red;
+    font-size: 20px;
+}
+
+section p{ Aqui estamos selecionado o p dentro da section, ou seja, só o filho da section, porém de todas
+    color: blue;
+}*/
+
+
+body{
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    background-color: linear-gradient(to bottom, black, #2a003f);
+    text-align: center;
+    padding: 10px;
+}
+header nav ul{
+    text-align: center;
+    list-style: none; /*tira as bolinhas da lista */
+    margin: 0%;
+}
